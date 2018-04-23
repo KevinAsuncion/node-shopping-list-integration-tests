@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: vYePHReHZaWAZ85/A5ORfavxj3qAbIr8DOAXQlJWhiZwpFt+VwP7rC+miOQ4QpVjbDKJkcj1ggJDCiwz/xXIr6tp7YMvE3ynanXSsqYSDhSwS/ZfnYCxT5Fz3nQ2kxtR+DLPTaZMMg6t09PEK2mfIoVpTCjNjAGRx8+pIWZuBtRHISpoK1B/mhRdbJ8vQteOvgwqbexD74VigCGHmnkiWLDPV87tMrgVXHOpmGJBOcDV5scv2SFaLoQR6aTLARpMSLJnsEZIzMjTfyMTli+WwHsYWf6IZrgtfhIh/XwlGc6ufpYrNTL9Pn7yFymMVmJNeG8D4LoEI1xVl8UtzXxLTItBvDxhT7PaeSTYMypiywNbmv3c+MqUS9JyCUiGCJq5+OjYlMp/mteCIMUog5bm8Syzlv+XmqbfE64iTbfyKqVwuJc7UdsIHy0BsJL/5q2A1cfcdUyZond+bDUUwmMVXTRJVrm2ep1evS/gpaXEQ8hBfAfRu+fQ3/iNBS/WhYK7MHPmEEd8TXCks7NBGx8zyXOo5wWdB7ERDHTOctOu5Zjedo4n5yXaiTRKZ3uhlwLOysUueLUyqL6Ls8Zp9Bo/mDkHjGxK8E/qvnd21nSwyfZ9Mi3jNj9Ny6XDjyWHgDKtBfQfbkLTfrFn6m0eeFoCmDgXY1QhUOCYqNPlRQ2gyD8=
+  app: blooming-brushlands-30526
+  on:
+    repo: KevinAsuncion/node-shopping-list-integration-tests
+    branch: tests-for-recipes
